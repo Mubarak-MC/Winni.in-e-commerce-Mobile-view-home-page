@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+
+}
+body{
+    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    flex: 1 0 auto;
+}
+.container{
+    width:80%;
+    height: 100px;
+    margin:0 auto;
+    padding:10px;
+    overflow: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border-bottom: #b6ad90;
+    border-bottom: 2px solid #f5f3f4;
+}
+.container.logo{
+    margin-left: 10px;
+}
+    .bar{
+        width: 10%;
+font-size: 30px;
+font-size: 30px;
+margin-left: -40px;
+margin-right: 0px;
+color: #343a40;
+}
+    .logo img{
+        width: 100%;
+    }
+    
+   .bag{
+       font-size: 25px;
+       width: 50%;
+       /* margin-left: 12px;
+       margin-right: 2px; */
+       color: #343a40;
+       font-size: 25px;
+       width: 0%;
+       color: #343a40;
+       position: inherit;
+   }
+   .bag i{
+    margin-left: 15px;
+
+   }
+   .search{
+       display:flex;
+       flex-direction: row;
+       border-bottom:2px solid whitesmoke;
+   }
+
+   .srcicon{
+       background-color: transparent;
+       padding: 10px;
+   }
+
+   
+.header{
+    background:white;
+    
+}
+.app-header.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+}
+.app-header.logo{
+    width:170px;
+    margin: 16px;
+}
+
+.app-header input[type="text"]{
+    padding: 7px;
+    width:300px;
+    border: 0;
+    border-radius: 3px;
+
+}
+
+.subheader{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+}
+
+.subheader img{
+    width: 100%;
+}
+    .subheader.delivery{
+margin:0 auto 16px auto;
+width: 90%;
+border-bottom: 1px solid #dee2e6;
+
+}
+.sectiontop{
+    margin: 7px 0px 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #faf9f9;
+margin-right: 15px;
+width: 100%;
+height: 60px;
+margin-left: 0px;
+box-shadow: 2px 4px 3px 2px darkgray;
+margin-bottom: 5px;
+}
+.sectiontop .heading{
+    margin: 10px 5px 5px 25px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+    
+
+.sectiontop button {
+    margin: 3%;
+width: 80px;
+height: 25px;
+background-color: #ef476f;
+border: 1px solid #ef476f;
+color: white;
+
+}  
+.btn{
+    padding: 0;
+
+} 
+
+ .section{
+    margin: 5px auto;
+     width: 100%;
+     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f7fff7;
+    box-shadow: 2px 2px 2px 1px #b7b7a4;
+    margin-bottom: 20px;
+}
+
+.section img{
+    width: 90%;
+    margin: 25px;
+    box-shadow: 2px 2px 4px 1px #b7b7a4;
+     margin-left: 10px;
+     
+  
+}
+.headline{
+    border-bottom: 0.51px solid #e9ecef;
+font-size: 10px;
+text-align: center;
+margin: 10px;
+box-shadow: 0px 2px 4px -2px #b7b7a4;
+font-family: 'Roboto', sans-serif;
+}
+.headline h1{
+    font-weight: 100;
+    padding:2px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.container1{
+    width: 100%;
+display:grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+.card1 {
+    width: 90%;
+}
+
+.d-block{
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 2px 4px 3px 2px darkgray;
+}
+
+
+
+.app-footer{
+    flex-shrink: 0;
+    background:white;
+    color:#444;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.app-footer ul{
+    margin: 5px auto;
+    margin-right: 0px;
+margin-left: -40px;
+margin-top: 20px;
+    display:flex;
+    align-items: center;
+justify-content: space-around;
+list-style: none;
+
+}
+.app-footer ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.app-footer ul li i{
+    font-size: 22px;
+    margin-bottom: 1px;
+}
+
+@media screen and (min-width: 900px){
+
+.logo{
+    width: 400px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
